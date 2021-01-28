@@ -9,9 +9,9 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Jamie Egan Portfolio',
+  title: '',
   name: 'Jamie Egan',
-  subtitle: 'Web Developer',
+  subtitle: '',
   cta: '',
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.png',
   paragraphOne: 'I have over 10 years experience in various different e-commerce businesses in the UK, Canada & Germany.',
-  paragraphTwo: 'I build fast, minimal websites using Javascript, react & Gatsby.',
+  paragraphTwo: 'I build fast, minimal websites using Javascript, React & Gatsby.',
   paragraphThree: 'I can deliver cost effective technology solutions to improve your business.',
   resume: '', // if no resume, the button will not show up
 };
@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'sheddensmews.png',
     title: 'Sheddens Mews',
-    info: 'Marketing website for a local property business. Built using React/Gatsby and powered by Netlify.',
+    info: 'A marketing website for a local property business. Built using React/Gatsby and powered by Netlify.',
     info2: '',
     url: 'https://www.sheddensmews.co.uk',
     repo: 'https://github.com/jeeegan/sheddens-mews', // if no repo, the button will not show up
