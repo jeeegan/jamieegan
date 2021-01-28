@@ -37,7 +37,7 @@ module.exports = {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
-          '@static': path.resolve(__dirname, 'static/'),
+          '@static': path.resolve(__dirname, 'public/static/'),
         },
       },
     },

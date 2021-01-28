@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I have over 10 years experience in various different e-commerce businesses in the UK, Canada & Germany.',
   paragraphTwo: 'I build fast, minimal websites using Javascript, React & Gatsby.',
   paragraphThree: 'I can deliver cost effective technology solutions to improve your business.',
-  resume: '',
+  resume: 'resume.pdf',
 };
 
 // PROJECTS DATA
