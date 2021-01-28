@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Jamie Egan | Web Developer', // e.g: 'Name | Developer'
-  lang: 'en', // e.g: en, es, fr, jp
-  description: 'Welcome to my website', // e.g: Welcome to my website
+  title: 'Jamie Egan | Web Developer',
+  lang: 'en',
+  description: 'Welcome to my website',
 };
 
 // HERO DATA
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: 'I have over 10 years experience in various different e-commerce businesses in the UK, Canada & Germany.',
   paragraphTwo: 'I build fast, minimal websites using Javascript, React & Gatsby.',
   paragraphThree: 'I can deliver cost effective technology solutions to improve your business.',
-  resume: 'static/resume.pdf',
+  resume: 'resume.pdf',
 };
 
 // PROJECTS DATA
@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'A marketing website for a local property business. Built using React/Gatsby and powered by Netlify.',
     info2: '',
     url: 'https://www.sheddensmews.co.uk',
-    repo: 'https://github.com/jeeegan/sheddens-mews', // if no repo, the button will not show up
+    repo: 'https://github.com/jeeegan/sheddens-mews',
   },
   {
     id: nanoid(),
