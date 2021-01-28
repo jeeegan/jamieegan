@@ -1,3 +1,5 @@
+const path = require('path');
+
 module.exports = {
   plugins: [
     `gatsby-plugin-sass`,
@@ -29,6 +31,14 @@ module.exports = {
         theme_color: `#02aab0`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          '@static': path.resolve(__dirname, 'static/'),
+        },
       },
     },
   ],
