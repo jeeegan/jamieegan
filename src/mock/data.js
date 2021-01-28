@@ -11,14 +11,15 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Jamie Egan',
-  subtitle: '',
+  subtitle: "I'm a web developer",
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.png',
-  paragraphOne: 'I have over 10 years experience in various different e-commerce businesses in the UK, Canada & Germany.',
+  paragraphOne:
+    'I have over 10 years experience in various different e-commerce businesses in the UK, Canada & Germany.',
   paragraphTwo: 'I build fast, minimal websites using Javascript, React & Gatsby.',
   paragraphThree: 'I can deliver cost effective technology solutions to improve your business.',
   resume: 'resume.pdf',
@@ -30,7 +31,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'sheddensmews.png',
     title: 'Sheddens Mews',
-    info: 'A marketing website for a local property business. Built using React/Gatsby and powered by Netlify.',
+    info:
+      'A marketing website for a local property business. Built using React/Gatsby and powered by Netlify.',
     info2: '',
     url: 'https://www.sheddensmews.co.uk',
     repo: 'https://github.com/jeeegan/sheddens-mews',
