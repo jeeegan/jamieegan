@@ -39,12 +39,32 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'cladachcottage.png',
+    title: 'Cladach Cottage',
+    info:
+      'Showcase website for Cladach Cottage, a holiday rental property on the scenic Isle of Islay. Built using React/Gatsby and powered by Netlify.',
+    info2: '',
+    url: 'http://www.cladachcottage.co.uk',
+    repo: 'https://github.com/jeeegan/cladach-cottage',
+  },
+  {
+    id: nanoid(),
+    img: 'airprotection.png',
+    title: 'Air Protection',
+    info:
+      'Marketing website for a Glasgow B2B startup. Built using React/Gatsby and powered by Netlify.',
+    info2: '',
+    url: 'http://www.airprotection.co.uk',
+    repo: 'https://github.com/jeeegan/air-protection',
+  },
+  {
+    id: nanoid(),
     img: 'shapewars.png',
     title: 'Shape Wars',
     info: 'A Javascript/Canvas retro 80s browser game set in a retro-futuristic Berlin.',
     info2: '',
     url: 'http://shapewars.surge.sh/',
-    repo: 'https://github.com/jeeegan/shape-wars', // if no repo, the button will not show up
+    repo: 'https://github.com/jeeegan/shape-wars',
   },
 ];
 
